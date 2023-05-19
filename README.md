@@ -18,3 +18,10 @@ variants of the ARIMA model. The provided data spans over 2000 to 2015.  <br>
 Key tools: Time Series Analysis and Forecasting, ARIMA, SARIMAX <br>
 Libraries: statsmodels, statsmodels.tsa, sklearn, itertools, seaborn, matplotlib, numpy, pandas
 
+4)  Demand Forecasting for a Solar Energy Provider (Electric_Load_Forecasting):<br>
+A large dataset of the load on the grid, collected at 15-minute intervals, and provided by a solar panel producer,
+was leveraged to develop time-series forecasting models (ARIMA- and tree-based) for multi-step prediction of the 
+next 24-hour load. <br>
+Key tools: Time Series Analysis and Prediction, SARIMAX and Auto ARIMA, XGBoost, Random Forest <br>
+Libraries: pmdarima, statsmodels.tsa, xgboost, sklearn, seaborn, matplotlib, numpy, pandas
+
